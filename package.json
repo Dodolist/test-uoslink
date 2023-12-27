@@ -1,5 +1,5 @@
 {
-  "homepage": "https://dodolist.github.io/test-uoslink",
+  "homepage": "https://uoslink.com",
   "name": "uos-notice",
   "version": "0.1.0",
   "private": true,
@@ -19,7 +19,7 @@
     "web-vitals": "^2.1.0"
   },
   "scripts": {
-    "predeploy": "yarn build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
