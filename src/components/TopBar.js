@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import styled, { keyframes } from 'styled-components';
 import logo from '../images/logo.svg';
-import santaHat from '../images/santa-hat.svg';
 import foodIcon from '../images/food-icon.svg';
 import libraryIcon from '../images/library-icon.svg';
 import settingIcon from '../images/setting-icon.svg';
@@ -51,15 +50,6 @@ const TopBarLeft = styled('div')`
 const ImgWrap = styled('div')`
   position: relative;
   display: flex;
-`
-
-const SantaHat = styled('img')`
-  position: absolute;
-  top: -8px;
-  left: -2px;
-  width: 16px;
-  height: 16px;
-  transform: rotate(-32deg);
 `
 
 const TopBarRight = styled('div')`
@@ -134,7 +124,6 @@ const TopBar = ({ theme, isSideBarOpen, activeSnow, toggleTheme, toggleSideBar, 
       <TopBarLeft>
         <ImgWrap>
           <img className="logo" src={logo} alt="logo" />
-          <SantaHat src={santaHat} alt="santaHat" />
         </ImgWrap>
         <ServiceName>시대링크</ServiceName>
         <ServiceNotice />
