@@ -3,6 +3,8 @@
     margin: 0;
     box-sizing: border-box;
     letter-spacing: -0.12em;
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
 }
 
 body {
